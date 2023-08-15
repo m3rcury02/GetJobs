@@ -4,7 +4,9 @@ An multi-platform app built using React Native to easily search and get jobs.
 
 ## 🚀 App Screenshots
 
-![App Screenshot](screenshots/Screenshot_20230815_173502.png)
+![App Screenshot](screenshots/Screenshot_Home.png)
+![App Screenshot](screenshots/Screenshot_JobDetails.png)
+![App Screenshot](screenshots/Screenshot_Search.png)
 
 ## 📝 Tech Stack
 

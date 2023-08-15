@@ -13,11 +13,7 @@ const useFetch = (endpoint, query) => {
       'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
     },
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
-    params: {
-      query: 'Python developer in Texas, USA',
-      page: '1',
-      num_pages: '1'
-    },
+    params: { ...query },
   };
 
   const fetchData = async () => {
